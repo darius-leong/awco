@@ -1,0 +1,54 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+    background-image: url('https://cdn.glitch.com/7211312e-64e9-4128-8662-86028b459fec%2FWaterBckgrnd.png?v=1612484448660');
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  display: inline;
+  float: left;
+}
+
+p {
+  font-style: italic;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+#divider {
+  border-top: 2px solid white;
+}
+
+#paragraph1 {
+  font-style: italic;
+  float: right;
+}
+
+#section1 {
+  display: inline;
+}
