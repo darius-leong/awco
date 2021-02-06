@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url('https://cdn.glitch.com/7211312e-64e9-4128-8662-86028b459fec%2FWaterBckgrnd.png?v=1612484448660');
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
+
+#divider {
+  border-bottom: 2px solid white;
+}
+
+h2 {
+  color: white;
+}
+
+input[type=submit] {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  width: 95px;
+  height: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+input[type=text] {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+input[type=email] {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+input[type=password] {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+::placeholder {
+  color: white;
+}
+
+p {
+  color: white;
+  font-style: italic;
+  display: inline;
+  float: right;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  width: 95px;
+  height: 30px;
+  float: right;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
